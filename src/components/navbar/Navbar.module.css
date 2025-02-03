@@ -1,0 +1,30 @@
+.container{
+    background-color: lightgreen;
+    display: flex;
+    padding: 20px; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    padding-right: 150px;
+    font-size: 20px;
+}
+
+.searchbar{
+    flex: 1; 
+    padding-right: 100px;
+    border-radius: 20px;
+    padding: 6px;
+    font-size: 17px;
+}
+
+.links{
+    display: flex; 
+    flex: 1;
+    align-items: center;
+    padding-left: 150px;
+    gap: 20px; 
+    font-size: 20px;
+
+}

@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    position: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 50% 50%;
+}
+
+.Image{
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.desc{
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;  
+}

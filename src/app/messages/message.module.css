@@ -1,0 +1,21 @@
+.container{
+    background-color: aqua;
+    display: flex;
+    margin-top: 10px;
+    width: 50%;
+    height: 40%;
+    border: 3px solid grey;
+    border-radius: 1%;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+}
+
+.userImage{
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.username{
+    font-size: 20px;
+}
