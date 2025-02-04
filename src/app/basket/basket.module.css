@@ -1,0 +1,10 @@
+.checkout{
+    display: flex;
+}
+.checkout_left{
+    background-color: blue;
+}
+
+.checkout_right{
+    background-color: red;
+}
