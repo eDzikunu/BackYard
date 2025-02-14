@@ -16,15 +16,17 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <StateProviderClient>
-          <div className="container">
-            <div className="wrapper">
-              <Navbar />
-              {children}
-              <Footer />
+        <AuthProvider>
+          <StateProviderClient>
+            <div className="container">
+              <div className="wrapper">
+                <Navbar />
+                {children}
+                <Footer />
+              </div>
             </div>
-          </div>
-        </StateProviderClient>
+          </StateProviderClient>
+        </AuthProvider>
       </body>
     </html>
   );
